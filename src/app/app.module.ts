@@ -15,11 +15,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { VideoRoomComponent } from './video-room/video-room.component';
 import { ConversationComponent } from './conversation/conversation.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MessagesComponent } from './messages/messages.component';
+
 
 
 
 @NgModule({
-    declarations: [AppComponent, UserVideoComponent, OpenViduVideoComponent, LoginComponent, VideoRoomComponent, ConversationComponent, DashboardComponent],
+    declarations: [AppComponent, UserVideoComponent, OpenViduVideoComponent, LoginComponent, VideoRoomComponent, ConversationComponent, DashboardComponent, MessagesComponent],
     entryComponents: [],
     imports: [BrowserModule, FormsModule, ReactiveFormsModule, IonicModule.forRoot(), HttpClientModule, AppRoutingModule],
     providers: [
